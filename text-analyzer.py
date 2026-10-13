@@ -1,0 +1,21 @@
+print("==== Texxt Analyzzer ====")
+
+text=input("Enter a sentence or paragraph:")
+
+characters=len(text)
+words=len(text.split())
+uppercase=sum(1 for ch in text if ch.isupper())
+lowercase=sum(1 for ch in text if ch.islower())
+digits=sum(1 for ch in text if ch.isdigit)
+spaces=text.count("")
+vowels=sum(1 for ch in text.lower()
+           if ch in "aeiou")
+
+print("\n==== Analysis Result ====")
+print("Total characters:",characters)
+print("Total words:",words)
+print("Uppercase Letters:",uppercase)
+print("lowercase Letters:",lowercase)
+print("Digits:",digits)
+print("spaces:",spaces)
+print("Vowels:",vowels)
