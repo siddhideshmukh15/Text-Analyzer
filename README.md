@@ -31,4 +31,4 @@ It helps beginners understand string operations and basic text processing in Pyt
 - Add more text analysis features.
 
 ## Author
-**Siddhi Deshmukh**
+Siddhi Deshmukh
